@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js create react-app my-app --template redux-typescript
+
+PATH: 
+  /node_modules/karma-cli/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tmp/spring-2.3.4.RELEASE/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/coder/.config/yarn'
+
+npm manifest: 
+  {
+    "name": "workspace",
+    "version": "1.0.0",
+    "description": "https://sonarcloud.io/summary/overall?id=examly-test_456016bf-9662-41de-bdc3-9d912a6f8b4b",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://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@github.com/iamneo-production/456016bf-9662-41de-bdc3-9d912a6f8b4b.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/iamneo-production/456016bf-9662-41de-bdc3-9d912a6f8b4b/issues"
+    },
+    "homepage": "https://github.com/iamneo-production/456016bf-9662-41de-bdc3-9d912a6f8b4b#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
