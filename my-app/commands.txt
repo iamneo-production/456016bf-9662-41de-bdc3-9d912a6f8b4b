@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo apt-get update
+sudo apt-get install python3-pip
+pip install django
+echo $PATH
+
+export PATH=/node_modules/karma-cli/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tmp/spring-2.3.4.RELEASE/bin:/home/coder/.local/bin
+
+python3 manage.py runserver
